@@ -10,8 +10,11 @@ function getYouTubeId(youtubeURL) {
 }
 
 
-function VideoCard({ videoTitle, videoURL, categoryColor }) {
-  const image = `https://img.youtube.com/vi/${getYouTubeId(videoURL)}/hqdefault.jpg`;
+function VideoCard({ videoTitle, videoURL, categoryColor, videoImg }) {
+  let image = videoImg;
+  if (videoURL.includes('youtube')) {
+    image = `https://img.youtube.com/vi/${getYouTubeId(videoURL)}/hqdefault.jpg`;
+  }
   return (
     <VideoCardContainer
       url={image}

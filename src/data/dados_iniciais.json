@@ -4,10 +4,6 @@
       "titulo": "Front End",
       "link": "https://www.alura.com.br/formacao-front-end",
       "cor": "#6BD1FF",
-      "link_extra": {
-        "text": "Formação de Front End na Alura",
-        "url": "https://www.alura.com.br/cursos-online-front-end"
-      },
       "videos": [
         {
           "titulo": "O que faz uma desenvolvedora front-end? #HipstersPontoTube",
@@ -46,40 +42,44 @@
     {
       "titulo": "Back End",
       "cor": "#00C86F",
-      "link_extra": {
-        "text": "Cursos de Back End na Alura",
-        "url": "https://www.alura.com.br/cursos-online-programacao"
-      },
       "videos": [
         {
-          "titulo": "PERCURSO em NÍVEL em ÁRVORE BINÁRIA | Estruturas de Dados #14",
-          "url": "https://www.youtube.com/watch?v=UOK7nS2E9xM"
+          "titulo": "Princípios SOLID em uma API REST com Node.js e TypeScript | Code/Drops #44",
+          "url": "https://www.youtube.com/watch?v=vAV4Vy4jfkc"
         },
         {
-          "titulo": "Coders4Tips - S01E04: GitHub CLI - Uma Nova Experiência no Github!",
-          "url": "https://www.youtube.com/watch?v=6o6-bKOZOEY"
+          "titulo": "Princípios SOLID em uma API REST com Node.js e TypeScript | Code/Drops #44",
+          "url": "https://www.youtube.com/watch?v=vAV4Vy4jfkc"
         },
         {
-          "titulo": "Programei 4 robôs que criam vídeos para mim no YouTube",
-          "url": "https://www.youtube.com/watch?v=kjhu1LEmRpY"
+          "titulo": "Como usei JavaScript + Node.js + Socket.io para programar o Frontend e Backend do meu Jogo",
+          "url": "https://www.youtube.com/watch?v=_v6FxZNXvN4"
         },
         {
           "titulo": "API: Dicionário do Programador",
           "url": "https://www.youtube.com/watch?v=vGuqKIRWosk"
         }, 
         {
-          "titulo": "Usando Git Direito",
-          "url": "https://www.youtube.com/watch?v=6OokP-NE49k"
+          "titulo": "Learn Flask for Python - Full Tutorial",
+          "url": "https://www.youtube.com/watch?v=Z1RJmh_OqeA"
+        },
+        {
+          "titulo": "Node.js: Iniciando da teoria à prática | Masterclass #11",
+          "url": "https://www.youtube.com/watch?v=DiXbJL3iWVs"
+        },
+        {
+          "titulo": "APIs for Beginners - How to use an API (Full Course / Tutorial)",
+          "url": "https://www.youtube.com/watch?v=GZvSYJDk-us"
+        },
+        {
+          "titulo": "How to Build an E-commerce Website with Django and Python",
+          "url": "https://www.youtube.com/watch?v=YZvRrldjf1Y"
         }
       ]
     },
     {
       "titulo": "Data Science e Inteligência Artificial",
       "cor": "#9cd33b",
-      "link_extra": {
-        "text": "Cursos de Data Science na Alura",
-        "url": "https://www.alura.com.br/formacao-data-science"
-      },
       "videos": [
         {
           "titulo": "Teste de Turing",
@@ -96,38 +96,63 @@
         {
           "titulo": "Como ingressar no mercado de Data Science?",
           "url": "https://www.youtube.com/watch?v=gxyjGmOV540"
+        },
+        {
+          "titulo": "MACHINE LEARNING!! Bora de PRIMEIROS PASSOS??",
+          "url": "https://www.youtube.com/watch?v=TNDiiVwQ5Vo"
+        },
+        {
+          "titulo": "E Agora? Nova Inteligência Artificial Começou a Programar Sozinha",
+          "url": "https://www.youtube.com/watch?v=KdgKQoq1jk0"
+        },
+        {
+          "titulo": "Python for Data Science - Course for Beginners (Learn Python, Pandas, NumPy, Matplotlib)",
+          "url": "https://www.youtube.com/watch?v=LHBE6Q9XlzI"
         }
+        
       ]
     },
     {
-      "titulo": "Filmes",
+      "titulo": "Carreira de Desenvolvedor",
       "cor": "orange",
       "videos": [
         {
-          "titulo": "Interestellar",
-          "url": "https://www.youtube.com/watch?v=frD_IiY_A3E"
+          "titulo": "Meu primeiro FREELA foi um desastre! NÃO faça isso se você esta começando.",
+          "url": "https://www.youtube.com/watch?v=GWDOv5yInEo"
         },
         {
-          "titulo": "Gattaca",
-          "url": "https://www.youtube.com/watch?v=Dl0tYLbrhhs"
+          "titulo": "Meu processo de entrevista na Holanda como Senior Android",
+          "url": "https://www.youtube.com/watch?v=kmT2VoSSMVA"
         },
         {
-          "titulo": "A Chegada",
-          "url": "https://www.youtube.com/watch?v=rNciXGzYZms"
+          "titulo": "Começando na Carreira de TI | Faculdade? Níveis de Experiência?",
+          "url": "https://www.youtube.com/watch?v=H84WD_xyj10"
         },
         {
-          "titulo": "Feitiço do Tempo",
-          "url": "https://www.youtube.com/watch?v=zi8d69P9NvI"
+          "titulo": "RANT: Programação NÃO É Fácil",
+          "url": "https://www.youtube.com/watch?v=V7oUDL7E1g4"
+        },
+        {
+          "titulo": "FREELANCER: O segredo da estabilidade financeira",
+          "url": "https://www.youtube.com/watch?v=NDeMrRXlDOY"
+        },
+        {
+          "titulo": "Mulheres na tecnologia, representatividade e 10k inscritos",
+          "url": "https://www.youtube.com/watch?v=nzL2z-U9tu8"
+        },
+        {
+          "titulo": "Como um programador Junior vira Pleno",
+          "url": "https://www.youtube.com/watch?v=la2EZigYu2A"
+        },
+        {
+          "titulo": "Open Source? Como virar Pleno? TypeORM? Emprego antes dos 18? Context API vs. Redux? | #PR 07",
+          "url": "https://www.youtube.com/watch?v=xDFzOp2BoS8"
         }
       ]
     },
     {
       "titulo": "Games",
       "cor": "red",
-      "link_extra": {
-        "text": "Formação de Jogos na Alura",
-        "url": "https://www.alura.com.br/formacao-jogos-unity"
-      },
       "videos": [
         {
           "titulo": "Final Fantasy 7",
@@ -148,16 +173,20 @@
         {
           "titulo": "Pokémon Let's Go Pikachu/Eevee",
           "url": "https://www.youtube.com/watch?v=L56q_k2ydrs"
+        },
+        {
+          "titulo": "The Last of Us Part II - Trailer de Anúncio",
+          "url": "https://www.youtube.com/watch?v=v5J0Vo_iVs8"
+        },
+        {
+          "titulo": "Far Cry 6 - Official Reveal Trailer | Ubisoft Forward",
+          "url": "https://www.youtube.com/watch?v=-IJuKT1mHO8"
         }
       ]
     },
     {
       "titulo": "Aprendendo a aprender tecnologia",
-      "cor": "#6b5be2",
-      "link_extra": {
-        "text": "Curso sobre aprendizado na Alura",
-        "url": "https://alura.com.br/curso-online-aprender-a-aprender-tecnicas-para-seu-autodesenvolvimento"
-      },
+      "cor": "brown",
       "videos": [
         {
           "titulo": "Como estudar melhor?",
@@ -178,6 +207,52 @@
         {
           "titulo": "Como aprender a programar?",
           "url": "https://www.youtube.com/watch?v=MwCx2qKdbDw&feature=youtu.be"
+        }
+      ]
+    },
+    {
+      "titulo": "Livestreams",
+      "cor": "#6b5be2",
+      "videos": [
+        {
+          "titulo": "marcobrunodev",
+          "url": "https://www.twitch.tv/marcobrunodev",
+          "image": "https://static-cdn.jtvnw.net/jtv_user_pictures/9d139d86-a9e5-45a7-88fc-2b23eb68beb5-profile_image-300x300.png"
+        },
+        {
+          "titulo": "marcobrunodev",
+          "url": "https://www.twitch.tv/marcobrunodev",
+          "image": "https://static-cdn.jtvnw.net/jtv_user_pictures/9d139d86-a9e5-45a7-88fc-2b23eb68beb5-profile_image-300x300.png"
+        },
+        {
+          "titulo": "o_gabsferreira",
+          "url": "https://www.twitch.tv/o_gabsferreira",
+          "image": "https://static-cdn.jtvnw.net/jtv_user_pictures/89633682-8aa3-491f-a150-5e4136807dfb-profile_image-300x300.png"
+        },
+        {
+          "titulo": "CsOrlandi",
+          "url": "https://www.twitch.tv/csorlandi",
+          "image": "https://static-cdn.jtvnw.net/jtv_user_pictures/e015b20d-9c70-4e89-9580-15d33db715a8-profile_image-300x300.png"
+        },
+        {
+          "titulo": "nomadCodeMist",
+          "url": "https://www.twitch.tv/nomadcodemist",
+          "image": "https://static-cdn.jtvnw.net/jtv_user_pictures/c1531356-fbd0-4b68-bd86-b6b7af59259b-profile_image-300x300.png"
+        },
+        {
+          "titulo": "rinconhacking",
+          "url": "https://www.twitch.tv/rinconhacking",
+          "image": "https://static-cdn.jtvnw.net/jtv_user_pictures/3c0d9900-076a-4a8a-9c37-e263f715db8c-profile_image-300x300.png"
+        },
+        {
+          "titulo": "CodeShow",
+          "url": "https://www.twitch.tv/codeshow",
+          "image": "https://static-cdn.jtvnw.net/jtv_user_pictures/17b1c052-4019-40d4-a7c4-1d9bf187b728-profile_image-300x300.png"
+        },
+        {
+          "titulo": "teomewhy",
+          "url": "https://www.twitch.tv/teomewhy",
+          "image": "https://static-cdn.jtvnw.net/jtv_user_pictures/24700f10-84bf-4fc4-b7bb-9f9f062c0a46-profile_image-300x300.png"
         }
       ]
     }
