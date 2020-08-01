@@ -1,15 +1,22 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
+import { BrowserRouter, Switch, Route } from 'react-router-dom';
 import Home from './pages/Home';
 
-import { BrowserRouter, Switch, Route } from "react-router-dom";
-import CadastroVideo from "./pages/cadastro/Video";
-import CadastroCategoria from "./pages/cadastro/Categoria";
-
+import CadastroVideo from './pages/cadastro/Video';
+import CadastroCategoria from './pages/cadastro/Categoria';
 
 // Fazer a página 404
-const Pagina404 = () => (<div> Erro 404 <br/> Página não encontrada.</div>)
+const Pagina404 = () => (
+  <div>
+    {' '}
+    Erro 404
+    <br />
+    {' '}
+    Página não encontrada.
+  </div>
+);
 
 ReactDOM.render(
   <BrowserRouter>
@@ -20,14 +27,13 @@ ReactDOM.render(
 
       <Route path="/" component={Home} exact />
 
-      <Route component={Pagina404}/>
+      <Route component={Pagina404} />
 
     </Switch>
   </BrowserRouter>,
-  document.getElementById('root')
+  document.getElementById('root'),
 );
 
 // If you want your app to work offline and load faster, you can change
 // unregister() to register() below. Note this comes with some pitfalls.
 // Learn more about service workers: https://bit.ly/CRA-PWA
-
