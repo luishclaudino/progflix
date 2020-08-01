@@ -29,15 +29,16 @@ function CadastroCategoria() {
   }
 
   useEffect(() => {
-    const URL_TOP = 'http://localhost:8080/categorias';
-    fetch(URL_TOP).then(async(serverResponse) => {
+    const URL_TOP = window.location.hostname.includes('localhost')
+      ? 'http://localhost:8080/categorias'
+      : 'https://progflix.herokuapp.com/categorias';
+    fetch(URL_TOP).then(async (serverResponse) => {
       const resposta = await serverResponse.json();
       setCategorias([
         ...resposta,
       ]);
-    })
+    });
   }, []);
-
 
   return (
     <PageDefault>
@@ -78,6 +79,12 @@ function CadastroCategoria() {
           Cadastrar
         </Button>
       </form>
+
+      {categorias.length === 0 && (
+        <div>
+          Loading...
+        </div>
+      )}
 
       <ul>
         {categorias.map((categoria) => (
