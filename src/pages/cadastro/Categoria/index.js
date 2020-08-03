@@ -1,9 +1,10 @@
 import React, { useState, useEffect } from 'react';
-import { Link } from 'react-router-dom';
+import { Link, useHistory } from 'react-router-dom';
 import PageDefault from '../../../components/PageDefault';
 import FormField from '../../../components/FormField';
 import Button from '../../../components/Button';
 import useForm from '../../../hooks/useForm';
+import categoriasRepository from '../../../repositories/categorias';
 
 function CadastroCategoria() {
   const valoresIniciais = {
@@ -13,7 +14,7 @@ function CadastroCategoria() {
   };
 
   const { handleChange, values, clearForm } = useForm(valoresIniciais);
-
+  const history = useHistory();
   const [categorias, setCategorias] = useState([]);
 
   useEffect(() => {
@@ -31,13 +32,23 @@ function CadastroCategoria() {
   return (
     <PageDefault>
       <h1>Cadastro de Categoria</h1>
-      <form onSubmit={
-                function handleSubmit(e) {
-                  e.preventDefault();
-                  setCategorias([...categorias, values]);
-                  clearForm();
-                }
-            }
+      <form
+        style={{ marginBottom: '25px' }}
+        onSubmit={
+          function handleSubmit(event) {
+            event.preventDefault();
+            categoriasRepository.createCategory({
+              titulo: values.titulo,
+              descricao: values.descricao,
+              cor: values.cor,
+            })
+              .then(() => {
+                console.log('Cadastrou com sucesso!');
+                history.push('/');
+              });
+            clearForm();
+          }
+      }
       >
         <FormField
           label="Nome da Categoria"
@@ -64,27 +75,30 @@ function CadastroCategoria() {
         />
 
         <Button type="submit">
-          Cadastrar
+          Cadastrar Categoria
+        </Button>
+        <Button style={{ marginLeft: '25px' }}>
+          <Link style={{ textDecoration: 'none' }} to="/">
+            Ir para home
+          </Link>
         </Button>
       </form>
 
-      {categorias.length === 0 && (
+      {/* {categorias.length === 0 && (
         <div>
           Loading...
         </div>
       )}
 
+      <p>Categorias Disponíveis:</p>
       <ul>
         {categorias.map((categoria) => (
           <li key={`${categoria.titulo}`}>
             {categoria.titulo}
           </li>
         ))}
-      </ul>
+      </ul> */}
 
-      <Link to="/">
-        Ir para home
-      </Link>
     </PageDefault>
   );
 }

@@ -263,57 +263,51 @@
     {
       "id": 40,
       "categoriaId": 6,
-      "titulo": "marcobrunodev",
+      "titulo": "marcobrunodev: Pai, engenheiro do lar e fazedor de códigos ao vivo.",
       "url": "https://www.twitch.tv/marcobrunodev",
       "image": "https://static-cdn.jtvnw.net/jtv_user_pictures/9d139d86-a9e5-45a7-88fc-2b23eb68beb5-profile_image-300x300.png"
     },
     {
       "id": 41,
       "categoriaId": 6,
-      "titulo": "o_gabsferreira",
+      "titulo": "o_gabsferreira: Creator e blogueiro de tecnologia. Marketeiro e tech community manager na Alura e grupo Caelum.",
       "url": "https://www.twitch.tv/o_gabsferreira",
       "image": "https://static-cdn.jtvnw.net/jtv_user_pictures/89633682-8aa3-491f-a150-5e4136807dfb-profile_image-300x300.png"
     },
     {
       "id": 42,
       "categoriaId": 6,
-      "titulo": "CsOrlandi",
+      "titulo": "Faaaaalaaa galera! Eu sou o Claudio Orlandi o/ Sou um Programador apaixonado por Ensinar Programação e Resolver Problemas.",
       "url": "https://www.twitch.tv/csorlandi",
       "image": "https://static-cdn.jtvnw.net/jtv_user_pictures/e015b20d-9c70-4e89-9580-15d33db715a8-profile_image-300x300.png"
     },
     {
       "id": 43,
       "categoriaId": 6,
-      "titulo": "nomadCodeMist",
+      "titulo": "nomadCodeMist: Eu sou desenvolvedora web e Pylady. Atualmente eu estou estudando Javascript do 0, mas costumo também desenvolver projetos e resolver desafios durante as lives.",
       "url": "https://www.twitch.tv/nomadcodemist",
       "image": "https://static-cdn.jtvnw.net/jtv_user_pictures/c1531356-fbd0-4b68-bd86-b6b7af59259b-profile_image-300x300.png"
     },
     {
       "id": 44,
       "categoriaId": 6,
-      "titulo": "rinconhacking",
+      "titulo": "rinconhacking: Olá, eu hackeio computadores de sites como https://tryhackme.com/ e https://www.hackthebox.eu/ com o intuito de mostrar como um hacker ético trabalha.",
       "url": "https://www.twitch.tv/rinconhacking",
       "image": "https://static-cdn.jtvnw.net/jtv_user_pictures/3c0d9900-076a-4a8a-9c37-e263f715db8c-profile_image-300x300.png"
     },
     {
       "id": 45,
       "categoriaId": 6,
-      "titulo": "CodeShow",
+      "titulo": "CodeShow: My name is Bruno Rocha I am a Software Engineer at Red Hat Ansible, Elected member of Python Software Foundation and Maintainer of dynaconf.com.",
       "url": "https://www.twitch.tv/codeshow",
       "image": "https://static-cdn.jtvnw.net/jtv_user_pictures/17b1c052-4019-40d4-a7c4-1d9bf187b728-profile_image-300x300.png"
     },
     {
       "id": 46,
       "categoriaId": 6,
-      "titulo": "teomewhy",
+      "titulo": "teomewhy: Cientista de dados, membro da equipe de Analytics na ViaVarejo e já atuou como consultor analítico no SAS Institute Brasil.",
       "url": "https://www.twitch.tv/teomewhy",
       "image": "https://static-cdn.jtvnw.net/jtv_user_pictures/24700f10-84bf-4fc4-b7bb-9f9f062c0a46-profile_image-300x300.png"
-    },
-    {
-      "titulo": "Título do vídeo",
-      "url": "https://www.youtube.com/watch?v=jOAU81jdi-c",
-      "categoriaId": 1,
-      "id": 47
     }
   ]
 }

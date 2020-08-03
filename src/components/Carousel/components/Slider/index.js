@@ -5,49 +5,52 @@ import styled from 'styled-components';
 
 const Container = styled.ul`
   padding: 0;
-  margin: 0;
+  margin: 0px;
   .slick-prev,
   .slick-next {
     z-index: 50;
-    top: 0;
+    top: -5px;
     bottom: 0;
     margin: auto;
-    width: 30px;
-    height: 30px;
+    width: 50px;
+    height: 198px;
     transform: initial;
+    background-color: rgba(0, 0, 0, 0.7);
     &:before {
       font-size: 30px;
     }
   }
   
   .slick-prev {
-    left: 0;
+    left: 0px;
   }
   .slick-next {
-    right: 16px;
+    right: 0px;
   }
 `;
 
 export const SliderItem = styled.li`
   margin-right: 16px;
   img {
-    margin: 16px;
+    margin: 5px;
     width: 298px;
     height: 197px;
     object-fit: cover;
   }
 `;
 
-
+// onMouseLeave={this.someOtherHandler}
 const Slider = ({ children }) => (
-  <Container>
+  <Container >
     <SlickSlider {...{
       dots: false,
-      infinite: false,
+      infinite: true,
       speed: 300,
-      centerMode: false,
       variableWidth: true,
       adaptiveHeight: true,
+      centerMode: true,
+      centerPadding: "60px",
+      focusOnSelect: true,
     }}
     >
       {children}
@@ -55,4 +58,4 @@ const Slider = ({ children }) => (
   </Container>
 );
 
-export default Slider; 
+export default Slider;
